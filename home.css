@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+    background-image: linear-gradient(100deg, grey, gray, darkgrey, darkgray, black);
+}
+
+.container {
+    /* width: 850px;
+    height: 180vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    background-image: linear-gradient(100deg, black, darkgray, darkgrey, gray, grey);
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 10px 10px 14px 10px rgb(0, 0, 0);
+}
+
+#header h1{
+    color: rgba(51, 25, 0, 0.76);
+    text-align: center;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    font-size: 70px;
+}
+
+.slogan {
+    position: relative;
+    padding-bottom: 1rem;
+    margin: 1rem;
+    left: 25%;
+}
+
+.slogan h4{
+    color: rgba(41, 24, 0, 0.637);
+    font-size: 20px;
+    font-weight: bolder;
+    padding-bottom: .3rem;
+    margin-bottom: .3rem;
+}
+
+.slogan h2 {
+    width: 350px;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+}
+
+.slogan span {
+    color: red;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.nav{
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+#navlist li {
+    display: inline;
+    position: relative;
+    left: 10%;
+    padding: 1rem;
+    text-align: center;
+}
+
+#navlist a {
+    font-size: 30px;
+    color: antiquewhite;
+}
+#navlist a:hover {
+    font-size: 34px;
+    color: darkblue;
+    border-bottom: 2px red solid;
+    transition: all 0.9s ease;
+}
+
+#navlist a::after {
+    font-size: 20px;
+    color: darkblue;
+    border-bottom: 2px red solid;
+    transition: all 0.9s ease;
+}
+
+.footer {
+    padding: 1rem;
+    background-color: black;
+    color: white;
+}
+
+.footer-cols ul{
+    width: 850px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+img {
+    width: 700px;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.wall {
+    width: 800px;
+}
+
+.wall p{
+    font-size: 20px;
+    color: rgb(255, 251, 246);
+    text-align: center;
+    padding: .5rem;
+    margin: 1rem;
+}
+
+.wall a {
+    position: relative;
+    left: 30%;
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 25px;
+    border: solid 1px black;
+    border-radius: 9px;
+}
+
+.wall a:hover {
+    cursor: grabbing;
+    position: relative;
+    left: 30%;
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 20px;
+    color: darkslategrey;
+    background-color: slategray;
+    border: solid 1px black;
+    border-radius: 9px;
+    transition: all 1.0s ease;
+}
+
+.wall span {
+    color: red;
+}
+
+
+.table {
+    width: 100%;
+    margin-top: 2rem;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.table thead th {
+    text-transform: uppercase;
+    padding: 0.8rem;
+}
+
+.table tbody tr td {
+    color: rgb(243, 237, 237);
+    padding: 0.8rem 1.2rem;
+    text-align: center;
+}
+
+.table tbody tr td:first-child {
+    text-align: left;
+}
+
+.table tbody tr:nth-child(odd){
+    background: #222;
+}
